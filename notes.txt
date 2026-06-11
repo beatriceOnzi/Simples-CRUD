@@ -1,0 +1,8 @@
+Eu resolvi fazer uma aplicação web usando node.js, utilizando principalmente express. Utilizei mongoose de mongoDb para o banco de dados. Outros recursos utilizados foram handlebars, flash-messages e Tailwind css.
+
+Escolhi essas ferramentas pois estou estudando elas agora e achei que seria uma oportunidade para praticar.
+
+As principais dificuldades encontradas foram relacionadas ao front (alinhar o tanto de div e classe que o Tailwind 
+tem), pois é um framework novo para mim, porem com pesquisas no google e as funções para desenvolvedores da
+ página foi possível resolve-las.  Em relação ao crud em si, o mais trabalhoso foi lidar com a formatação e 
+ validação das datas, um exemplo foi que, ao selecionar uma data, era salvo um dia antes, por conta de fuso-horario ele salvava como se era meia-noite e ficava um dia antes, resolvi isso com uma função auxiliar para quebrar a data em dia, mes e ano e construi-la corretamente e ao meio-dia (para o fuso horario não retroceder o dia)
