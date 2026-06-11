@@ -17,6 +17,15 @@ Projeto simples de CRUD desenvolvido com Node.js, Express, MongoDB e Handlebars.
 - Handlebars
 - Tailwind CSS
 
+```
+Estrutura
+├── app.js
+├── models/
+├── views/
+├── public/
+└── package.json
+```
+
 ## Como executar
 
 1. Instale as dependências:
@@ -30,14 +39,6 @@ Inicie o projeto:
 node app.js
 ```
 Acesse no navegador:
-
-http://localhost:8081
-
 ```
-Estrutura
-├── app.js
-├── models/
-├── views/
-├── public/
-└── package.json
+http://localhost:8081
 ```
