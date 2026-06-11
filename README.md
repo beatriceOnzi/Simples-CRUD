@@ -1,5 +1,3 @@
-# Simples-CRUD
-
 # CRUD de Usuários
 
 Projeto simples de CRUD desenvolvido com Node.js, Express, MongoDB e Handlebars.
